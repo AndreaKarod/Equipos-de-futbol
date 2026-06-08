@@ -39,7 +39,7 @@ with open("output/salidaChampions.csv", "w", newline="") as archivo:
     escritor = csv.writer(archivo)
 
     escritor.writerow(
-        ["equipo", "ganados", "empatados", "perdidos", "goles_favor", "goles_contra", "puntos", "diferencia_goles"]
+        ["Posicion", " Equipo", " Ganados", " Empatados", " Perdidos", " Goles a favor", " Goles en contra", " Puntos", " Diferencia de goles"]
     )
 
     for posicion, equipo in enumerate(equipos, start=1):
